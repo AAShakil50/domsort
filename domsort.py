@@ -24,10 +24,10 @@ import optparse
 
 helpstr = """-------------------------------- DomSorter --------------------------------
 ----------------------------- by N1r0b 4h34n ------------------------------
------------------github/nirobahsan50 || twitter/aashakil50--------------------
+-----------------github/aashakil50 || twitter/aashakil50--------------------
 
 A tool that will sort all subdomains from different files and save it into a file
-Note : subdomains must be separated by new lines. Any additional spaces may occur error
+Note : subdomains must be separated by new lines.
 
 """
 
