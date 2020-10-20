@@ -11,7 +11,7 @@ Note : subdomains must be separated by new lines.
 
 """
 
-parser = optparse.OptionParser(usage=" prog [options]", version="1.0.0", description=helpstr)
+parser = optparse.OptionParser(usage=" prog [options]", version="1.1", description=helpstr)
 parser.add_option("-i", "--input", dest="f_input", type="string", help="Input files of subdomains. Comma(,) separated.")
 parser.add_option("-o", "--output", dest="f_output", type="string", help="Out file where to keep all sorted subdomains")
 (options, args) = parser.parse_args()
@@ -31,6 +31,9 @@ subdomst = combstr.splitlines()
 subdoms = set()
 for doms in subdomst:
     subdoms.add(doms.strip())
+
+# Sort subdomains
+subdoms = sorted(subdoms)
 
 # Set to str variable
 ostr = ""
