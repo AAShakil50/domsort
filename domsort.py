@@ -3,7 +3,7 @@
 import optparse
 
 helpstr = """-------------------------------- DomSorter --------------------------------
------------------------------ by N1r0b 4h34n ------------------------------
+----------------------------- by N1r0b ------------------------------
 -----------------github/aashakil50 || twitter/aashakil50--------------------
 
 A tool that will sort all subdomains from different files and save it into a file
